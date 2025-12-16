@@ -1,0 +1,33 @@
+html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تواصل معنا</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <nav>
+        <h1>Sneaker Zone 👟</h1>
+        <ul>
+             <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <div class="form-container">
+        <h2>أرسل لنا رسالة</h2>
+        <p id="statusMessage"></p>
+
+        <form id="contactForm">
+            <input type="text" id="username" placeholder="اسمك بالكامل">
+            <input type="email" id="email" placeholder="البريد الإلكتروني">
+            <textarea id="message" rows="5" placeholder="رسالتك..."></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>
