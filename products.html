@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>المنتجات</title>
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+    <nav>
+        <h1>Sneaker Zone 👟</h1>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="filters">
+            <button onclick="filterProducts('all')">الكل</button>
+            <button onclick="filterProducts('nike')">Nike</button>
+            <button onclick="filterProducts('adidas')">Adidas</button>
+        </div>
+
+        <div class="products-grid">
+            <div class="card nike">
+                <img src="https://placehold.co/200/black/white?text=Nike" alt="">
+                <h3>Nike Air</h3>
+                <p>السعر: 2000 ج.م</p>
+                <a href="details.html">التفاصيل</a>
+            </div>
+            <div class="card adidas">
+                <img src="https://placehold.co/200/blue/white?text=Adidas" alt="">
+                <h3>Adidas Run</h3>
+                <p>السعر: 1800 ج.م</p>
+                <a href="details.html">التفاصيل</a>
+            </div>
+            <div class="card nike">
+                <img src="https://placehold.co/200/red/white?text=Nike+Pro" alt="">
+                <h3>Nike Pro</h3>
+                <p>السعر: 2500 ج.م</p>
+                <a href="details.html">التفاصيل</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/products.js"></script>
+</body>
+</html>
+
