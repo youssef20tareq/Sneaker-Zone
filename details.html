@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تفاصيل المنتج</title>
+    <link rel="stylesheet" href="css/details.css">
+</head>
+<body>
+    <nav>
+        <h1>Sneaker Zone 👟</h1>
+        <ul>
+             <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <div class="detail-container">
+        <div class="main-image">
+            <img id="bigImg" src="https://placehold.co/400/black/white?text=Black+Shoe" alt="كوتشي">
+        </div>
+        
+        <div class="info">
+            <h2>Nike Air Max</h2>
+            <p>أفضل حذاء رياضي للجري والمشي لمسافات طويلة.</p>
+            <h3>اختر اللون:</h3>
+            <div class="colors">
+                <span class="dot black" onclick="changeColor('black')"></span>
+                <span class="dot red" onclick="changeColor('red')"></span>
+                <span class="dot blue" onclick="changeColor('blue')"></span>
+            </div>
+            <button class="buy-btn">أضف للسلة</button>
+        </div>
+    </div>
+
+    <script src="js/details.js"></script>
+</body>
+</html>
