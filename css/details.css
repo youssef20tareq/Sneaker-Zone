@@ -1,0 +1,13 @@
+body { font-family: Tahoma, sans-serif; margin: 0; background: #fff; }
+nav { background: #333; color: white; padding: 15px; display: flex; justify-content: space-between; }
+nav ul { list-style: none; display: flex; gap: 20px; }
+nav a { color: white; text-decoration: none; }
+
+.detail-container { display: flex; justify-content: center; align-items: center; gap: 50px; padding: 50px; }
+.dot { height: 30px; width: 30px; border-radius: 50%; display: inline-block; cursor: pointer; border: 2px solid #ccc; margin: 5px;}
+.black { background-color: black; }
+.red { background-color: red; }
+.blue { background-color: blue; }
+.buy-btn { background: #28a745; color: white; border: none; padding: 10px 30px; cursor: pointer; font-size: 18px; margin-top: 20px; }
+
+
